@@ -1,7 +1,20 @@
-# GAN
+## 종합설계 
+### 어린이의 조망수용능력 발달을 위한 감정인식 동화 어플리케이션
 
-study GAN.
+#### unity
+#### tensorflow 
+#### android 
+#### opencv 
 
-install ipython --> http://yujuwon.tistory.com/entry/ipython-%EB%85%B8%ED%8A%B8%EB%B6%81-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+- DONE    
+```
+gcp에서 gpu를 가지고 있는 instance를 할당 받아 모델 학습.     
+모델은 tensorflow, keras를 이용해 생성.
+학습된 모델을 android 에 올리기 위해 tensorflow-lite 을 사용.      
+```
 
-if not --> https://thinkwarelab.wordpress.com/2016/08/16/jupyteripython-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%8B%A4%ED%96%89/
+- TODO  
+ ```
+tflite 파일로 변환 후 android에 적용하는 중..        
+opencv를 이용해 카메라로 얼굴을 인식하는 작업 중..        
+``` 
